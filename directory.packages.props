@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup Label="Configure packages to be centralized">
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageVersionOverrideEnabled>false</CentralPackageVersionOverrideEnabled>
+  </PropertyGroup>
+
+  <!-- Theses packages will be used by every project in a repository. Theses packages are added to the PackageReference with the following metadata -->
+  <!-- IncludeAssets="analyzers,build,contentfiles,native,runtime" and PrivateAssets="all" -->
+  <ItemGroup Label="Global analyzers">
+    <GlobalPackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="17.14.15" />
+    <GlobalPackageReference Include="Roslynator.Analyzers" Version="4.14.0" />
+    <GlobalPackageReference Include="SonarAnalyzer.CSharp" Version="10.15.0.120848" />
+  </ItemGroup>
+</Project>
