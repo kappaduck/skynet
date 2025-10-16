@@ -2,6 +2,19 @@
 
 Skynet is a living, evolving .NET series designed to help developers explore and learn about .NET technologies, tools, and best practices.
 
+## Vision
+
+The vision of Skynet is to provide a comprehensive and up-to-date resource for .NET developers of all skill levels. It aims to cover a wide range of topics, from the basics of C# programming to advanced concepts in ASP.NET Core, Entity Framework, and more.
+
+### Goals
+
+- **Modularity**: Each module focuses on a specific aspect of .NET development, allowing developers to pick and choose topics that interest them.
+- **Practicality**: Real-world usage, not just theory. Each module includes code examples, tutorials, and practical applications.
+- **Up-to-date**: Regularly updated to reflect the latest changes in the .NET ecosystem.
+- **Community-driven**: Encourages contributions from the community to ensure a diverse range of perspectives and expertise.
+- **Best practices:** Encourage clean, maintainable, and idiomatic .NET code.
+- **Open-minded:** Embrace new approaches, packages, and ideas; be adaptable.
+
 ## Current .NET Versions
 
 | .NET Version | Release Date     | Release type | End of Support   |
